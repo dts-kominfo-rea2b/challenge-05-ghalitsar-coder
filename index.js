@@ -7,7 +7,7 @@ const names = ["Halo", "Angel", "Nyoman", "Ketut", "Aisyah"];
 // "2. Nama"
 // ...
 const sorter = (names, sortType) =>
-  sortType(names).map((name, i) => ` ${i + 1}. ${name}`);
+  sortType(names).map((name, i) => `${i + 1}. ${name}`);
 
 // TODO: Fungsi untuk mengurutkan array of string secara ascending
 // mengembalikan array yang sudah diurutkan
